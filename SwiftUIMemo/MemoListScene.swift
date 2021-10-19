@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MemolistScene: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MemolistScene_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MemolistScene()
     }
 }
+
